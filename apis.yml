@@ -42,7 +42,6 @@ modified: '2026-09-15'
 tags:
 - Company
 - Education
-- Startups
 - Community
 - Learning
 - Cohort-Based Courses
@@ -50,7 +49,6 @@ tags:
 tags_raw:
 - Company
 - Education
-- Startup
 - Community
 - Learning
 - Cohort-Based Courses
@@ -72,3 +70,7 @@ x-enrichment:
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
 x-status: defunct
+x-tags-removed:
+- Startups
+x-company-stage: startup
+x-company-stage-evidence: "own tags: Startup"
